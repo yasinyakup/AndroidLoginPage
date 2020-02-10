@@ -77,10 +77,11 @@
         android:paddingLeft="15dp"
         android:inputType="number"
         android:importantForAutofill="no"
-        android:imeOptions="actionDone"
+        android:imeOptions="actionNext"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@id/passwordText"
+        android:focusedByDefault="true"
         />
 
         <TextView
